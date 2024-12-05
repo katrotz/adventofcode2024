@@ -1,0 +1,14 @@
+{
+  "name": "adventofcode2024",
+  "packageManager": "yarn@4.5.2",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^22.10.1"
+  },
+  "scripts": {
+    "solve": "node solve.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
