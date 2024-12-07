@@ -29,5 +29,5 @@ async function run(day) {
 }
 
 run(paddedDay).finally(() =>
-  console.log(`\nDone in ${Math.round((Date.now() - startTime) / 1000)}sec`),
+  console.log(`\nDone in ${Math.round(Date.now() - startTime)}ms`),
 );
